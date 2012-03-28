@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1F11B2170F0AA294002B2921 /* GLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F11B2150F0AA294002B2921 /* GLView.m */; };
+		1F3B9A2D0EF2145700286867 /* TextureAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3B9A2B0EF2145700286867 /* TextureAppDelegate.m */; };
+		1FB90FDE0EF46C880086835B /* GLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FB90FDD0EF46C880086835B /* GLViewController.m */; };
+		1FF0216C0EF21FA500761551 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF0216B0EF21FA500761551 /* MainWindow.xib */; };
+		2D500B940D5A79C200DBA0E3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B920D5A79C200DBA0E3 /* OpenGLES.framework */; };
+		2D500B9A0D5A79CF00DBA0E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */; };
+		42028CE5118FB372003A5772 /* brick.png in Resources */ = {isa = PBXBuildFile; fileRef = 42028CE4118FB372003A5772 /* brick.png */; };
+		42028CEB118FB398003A5772 /* bark.png in Resources */ = {isa = PBXBuildFile; fileRef = 42028CEA118FB398003A5772 /* bark.png */; };
+		42028CFE118FB5B6003A5772 /* aquacloth.png in Resources */ = {isa = PBXBuildFile; fileRef = 42028CFD118FB5B6003A5772 /* aquacloth.png */; };
+		42136DC1118CBD1F004CD5A0 /* destroy.png in Resources */ = {isa = PBXBuildFile; fileRef = 42136DC0118CBD1F004CD5A0 /* destroy.png */; };
+		42136DC5118CBD4A004CD5A0 /* TextureOverhead.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42136DC4118CBD4A004CD5A0 /* TextureOverhead.xib */; };
+		421EA649118CF03900CE76CD /* titleQbit.png in Resources */ = {isa = PBXBuildFile; fileRef = 421EA648118CF03900CE76CD /* titleQbit.png */; };
+		422E631D118C00340086BCCF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 422E631C118C00340086BCCF /* icon.png */; };
+		42C03B25118BEC9B00E967D1 /* TextureOverhead.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C03B23118BEC9B00E967D1 /* TextureOverhead.m */; };
+		42E063FE1184F20500F2AE5E /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E063FD1184F20500F2AE5E /* Player.m */; };
+		42E064351184FB1600F2AE5E /* Physics.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E064341184FB1600F2AE5E /* Physics.m */; };
+		42E0649E11851A3E00F2AE5E /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0649D11851A3E00F2AE5E /* Globals.m */; };
+		BD1D2730118B88010075BEBD /* clouds.png in Resources */ = {isa = PBXBuildFile; fileRef = BD1D272F118B88010075BEBD /* clouds.png */; };
+		BD20D1FA116D4FB500708579 /* GameLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20D1F8116D4FB500708579 /* GameLogic.m */; };
+		BD66ADC11165347E001AEE84 /* MapBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66ADC01165347E001AEE84 /* MapBlocks.m */; };
+		BD66B094116554E5001AEE84 /* Camera.m in Sources */ = {isa = PBXBuildFile; fileRef = BD66B093116554E5001AEE84 /* Camera.m */; };
+		BD7E16BC117E38810002C9E7 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7E16B8117E38810002C9E7 /* SettingsView.m */; };
+		BD7E16BD117E38810002C9E7 /* TitleScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7E16BA117E38810002C9E7 /* TitleScreen.m */; };
+		BD7E16D0117E38B30002C9E7 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7E16CE117E38B30002C9E7 /* SettingsView.xib */; };
+		BD7E16D1117E38B30002C9E7 /* TitleScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD7E16CF117E38B30002C9E7 /* TitleScreen.xib */; };
+		BD93C9F2116BC7D4000541CD /* GLTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93C9F1116BC7D4000541CD /* GLTexture.m */; };
+		BD93CA06116BC900000541CD /* Mesh.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93CA05116BC900000541CD /* Mesh.m */; };
+		BD93CA11116BCC64000541CD /* MapChunks.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93CA10116BCC64000541CD /* MapChunks.m */; };
+		BD93CA8E116BD7DD000541CD /* Terrain.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93CA8D116BD7DD000541CD /* Terrain.m */; };
+		BD9E8EAA1177B2CD0046A291 /* MeshPool.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9E8EA91177B2CD0046A291 /* MeshPool.m */; };
+		BDB69734118F9A3D00E60A17 /* goldore.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69717118F9A3D00E60A17 /* goldore.png */; };
+		BDB69736118F9A3D00E60A17 /* limecloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69719118F9A3D00E60A17 /* limecloth.png */; };
+		BDB69737118F9A3D00E60A17 /* pavestone.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6971A118F9A3D00E60A17 /* pavestone.png */; };
+		BDB69738118F9A3D00E60A17 /* tealcloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6971B118F9A3D00E60A17 /* tealcloth.png */; };
+		BDB6973A118F9A3D00E60A17 /* yellowcloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6971D118F9A3D00E60A17 /* yellowcloth.png */; };
+		BDB6973B118F9A3D00E60A17 /* whitecloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6971E118F9A3D00E60A17 /* whitecloth.png */; };
+		BDB6973C118F9A3D00E60A17 /* greycloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6971F118F9A3D00E60A17 /* greycloth.png */; };
+		BDB6973D118F9A3D00E60A17 /* ivy.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69720118F9A3D00E60A17 /* ivy.png */; };
+		BDB6973E118F9A3D00E60A17 /* skycloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69721118F9A3D00E60A17 /* skycloth.png */; };
+		BDB69740118F9A3D00E60A17 /* violetcloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69723118F9A3D00E60A17 /* violetcloth.png */; };
+		BDB69741118F9A3D00E60A17 /* purplecloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69724118F9A3D00E60A17 /* purplecloth.png */; };
+		BDB69742118F9A3D00E60A17 /* magentacloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69725118F9A3D00E60A17 /* magentacloth.png */; };
+		BDB69744118F9A3D00E60A17 /* darkbluecloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69727118F9A3D00E60A17 /* darkbluecloth.png */; };
+		BDB69745118F9A3D00E60A17 /* steel.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69728118F9A3D00E60A17 /* steel.png */; };
+		BDB69746118F9A3D00E60A17 /* gold.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69729118F9A3D00E60A17 /* gold.png */; };
+		BDB69747118F9A3D00E60A17 /* sand.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6972A118F9A3D00E60A17 /* sand.png */; };
+		BDB69748118F9A3D00E60A17 /* orangecloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6972B118F9A3D00E60A17 /* orangecloth.png */; };
+		BDB69749118F9A3D00E60A17 /* redcloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6972C118F9A3D00E60A17 /* redcloth.png */; };
+		BDB6974A118F9A3D00E60A17 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6972D118F9A3D00E60A17 /* diamond.png */; };
+		BDB6974C118F9A3D00E60A17 /* greencloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB6972F118F9A3D00E60A17 /* greencloth.png */; };
+		BDB69779118F9BCF00E60A17 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69774118F9BCF00E60A17 /* grass.png */; };
+		BDB6977A118F9BCF00E60A17 /* dirt.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69775118F9BCF00E60A17 /* dirt.png */; };
+		BDB6977B118F9BCF00E60A17 /* leaves.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69776118F9BCF00E60A17 /* leaves.png */; };
+		BDB6977C118F9BCF00E60A17 /* wood.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69777118F9BCF00E60A17 /* wood.png */; };
+		BDB6977D118F9BCF00E60A17 /* stone.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB69778118F9BCF00E60A17 /* stone.png */; };
+		BDB697E8118FA6FB00E60A17 /* cobblestone.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB697E6118FA6FB00E60A17 /* cobblestone.png */; };
+		BDB697E9118FA6FB00E60A17 /* gravel.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB697E7118FA6FB00E60A17 /* gravel.png */; };
+		BDB9F32B116C04E50077C270 /* controls.png in Resources */ = {isa = PBXBuildFile; fileRef = BDB9F32A116C04E50077C270 /* controls.png */; };
+		BDE703CF11693022002F6454 /* terrain.png in Resources */ = {isa = PBXBuildFile; fileRef = BDE703CE11693022002F6454 /* terrain.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* QBit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QBit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F11B2140F0AA272002B2921 /* OpenGLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLCommon.h; path = Classes/OpenGLCommon.h; sourceTree = SOURCE_ROOT; };
+		1F11B2150F0AA294002B2921 /* GLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GLView.m; path = Classes/GLView.m; sourceTree = SOURCE_ROOT; };
+		1F11B2160F0AA294002B2921 /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLView.h; path = Classes/GLView.h; sourceTree = SOURCE_ROOT; };
+		1F3B9A2B0EF2145700286867 /* TextureAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextureAppDelegate.m; path = Classes/TextureAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		1F3B9A2C0EF2145700286867 /* TextureAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextureAppDelegate.h; path = Classes/TextureAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		1F3B9A820EF2151B00286867 /* QBit_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QBit_Prefix.pch; sourceTree = "<group>"; };
+		1FB90FDC0EF46C880086835B /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLViewController.h; path = Classes/GLViewController.h; sourceTree = SOURCE_ROOT; };
+		1FB90FDD0EF46C880086835B /* GLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLViewController.m; sourceTree = "<group>"; };
+		1FF0216B0EF21FA500761551 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = SOURCE_ROOT; };
+		1FFC28B70EF403B30094EAC8 /* ConstantsAndMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstantsAndMacros.h; path = Classes/ConstantsAndMacros.h; sourceTree = SOURCE_ROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D500B920D5A79C200DBA0E3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		42028CE4118FB372003A5772 /* brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick.png; sourceTree = "<group>"; };
+		42028CEA118FB398003A5772 /* bark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bark.png; sourceTree = "<group>"; };
+		42028CFD118FB5B6003A5772 /* aquacloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquacloth.png; sourceTree = "<group>"; };
+		42136DC0118CBD1F004CD5A0 /* destroy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = destroy.png; sourceTree = "<group>"; };
+		42136DC4118CBD4A004CD5A0 /* TextureOverhead.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextureOverhead.xib; sourceTree = "<group>"; };
+		421EA648118CF03900CE76CD /* titleQbit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleQbit.png; sourceTree = "<group>"; };
+		422E631C118C00340086BCCF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		42C03B22118BEC9B00E967D1 /* TextureOverhead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureOverhead.h; sourceTree = "<group>"; };
+		42C03B23118BEC9B00E967D1 /* TextureOverhead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureOverhead.m; sourceTree = "<group>"; };
+		42E063FC1184F20500F2AE5E /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		42E063FD1184F20500F2AE5E /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		42E064331184FB1600F2AE5E /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		42E064341184FB1600F2AE5E /* Physics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Physics.m; sourceTree = "<group>"; };
+		42E0649C11851A3E00F2AE5E /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		42E0649D11851A3E00F2AE5E /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD1D272F118B88010075BEBD /* clouds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clouds.png; sourceTree = "<group>"; };
+		BD20D1F8116D4FB500708579 /* GameLogic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameLogic.m; sourceTree = "<group>"; };
+		BD20D1F9116D4FB500708579 /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
+		BD66ADBF1165347E001AEE84 /* MapBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapBlocks.h; sourceTree = "<group>"; };
+		BD66ADC01165347E001AEE84 /* MapBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapBlocks.m; sourceTree = "<group>"; };
+		BD66B092116554E5001AEE84 /* Camera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera.h; sourceTree = "<group>"; };
+		BD66B093116554E5001AEE84 /* Camera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera.m; sourceTree = "<group>"; };
+		BD7E16B8117E38810002C9E7 /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		BD7E16B9117E38810002C9E7 /* TitleScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScreen.h; sourceTree = "<group>"; };
+		BD7E16BA117E38810002C9E7 /* TitleScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScreen.m; sourceTree = "<group>"; };
+		BD7E16BB117E38810002C9E7 /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		BD7E16CE117E38B30002C9E7 /* SettingsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		BD7E16CF117E38B30002C9E7 /* TitleScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleScreen.xib; sourceTree = "<group>"; };
+		BD93C9F0116BC7D4000541CD /* GLTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTexture.h; sourceTree = "<group>"; };
+		BD93C9F1116BC7D4000541CD /* GLTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTexture.m; sourceTree = "<group>"; };
+		BD93CA04116BC900000541CD /* Mesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mesh.h; sourceTree = "<group>"; };
+		BD93CA05116BC900000541CD /* Mesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mesh.m; sourceTree = "<group>"; };
+		BD93CA0F116BCC64000541CD /* MapChunks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapChunks.h; sourceTree = "<group>"; };
+		BD93CA10116BCC64000541CD /* MapChunks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapChunks.m; sourceTree = "<group>"; };
+		BD93CA8D116BD7DD000541CD /* Terrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Terrain.m; sourceTree = "<group>"; };
+		BD9E8EA81177B2CD0046A291 /* MeshPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshPool.h; sourceTree = "<group>"; };
+		BD9E8EA91177B2CD0046A291 /* MeshPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeshPool.m; sourceTree = "<group>"; };
+		BDB696FC118F99BD00E60A17 /* blackcloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackcloth.png; sourceTree = "<group>"; };
+		BDB69717118F9A3D00E60A17 /* goldore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goldore.png; sourceTree = "<group>"; };
+		BDB69719118F9A3D00E60A17 /* limecloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = limecloth.png; sourceTree = "<group>"; };
+		BDB6971A118F9A3D00E60A17 /* pavestone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pavestone.png; sourceTree = "<group>"; };
+		BDB6971B118F9A3D00E60A17 /* tealcloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tealcloth.png; sourceTree = "<group>"; };
+		BDB6971D118F9A3D00E60A17 /* yellowcloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellowcloth.png; sourceTree = "<group>"; };
+		BDB6971E118F9A3D00E60A17 /* whitecloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitecloth.png; sourceTree = "<group>"; };
+		BDB6971F118F9A3D00E60A17 /* greycloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greycloth.png; sourceTree = "<group>"; };
+		BDB69720118F9A3D00E60A17 /* ivy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ivy.png; sourceTree = "<group>"; };
+		BDB69721118F9A3D00E60A17 /* skycloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skycloth.png; sourceTree = "<group>"; };
+		BDB69723118F9A3D00E60A17 /* violetcloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = violetcloth.png; sourceTree = "<group>"; };
+		BDB69724118F9A3D00E60A17 /* purplecloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purplecloth.png; sourceTree = "<group>"; };
+		BDB69725118F9A3D00E60A17 /* magentacloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magentacloth.png; sourceTree = "<group>"; };
+		BDB69727118F9A3D00E60A17 /* darkbluecloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkbluecloth.png; sourceTree = "<group>"; };
+		BDB69728118F9A3D00E60A17 /* steel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = steel.png; sourceTree = "<group>"; };
+		BDB69729118F9A3D00E60A17 /* gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gold.png; sourceTree = "<group>"; };
+		BDB6972A118F9A3D00E60A17 /* sand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sand.png; sourceTree = "<group>"; };
+		BDB6972B118F9A3D00E60A17 /* orangecloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangecloth.png; sourceTree = "<group>"; };
+		BDB6972C118F9A3D00E60A17 /* redcloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redcloth.png; sourceTree = "<group>"; };
+		BDB6972D118F9A3D00E60A17 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		BDB6972F118F9A3D00E60A17 /* greencloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greencloth.png; sourceTree = "<group>"; };
+		BDB69774118F9BCF00E60A17 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
+		BDB69775118F9BCF00E60A17 /* dirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dirt.png; sourceTree = "<group>"; };
+		BDB69776118F9BCF00E60A17 /* leaves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaves.png; sourceTree = "<group>"; };
+		BDB69777118F9BCF00E60A17 /* wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood.png; sourceTree = "<group>"; };
+		BDB69778118F9BCF00E60A17 /* stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stone.png; sourceTree = "<group>"; };
+		BDB697E6118FA6FB00E60A17 /* cobblestone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cobblestone.png; sourceTree = "<group>"; };
+		BDB697E7118FA6FB00E60A17 /* gravel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gravel.png; sourceTree = "<group>"; };
+		BDB9F32A116C04E50077C270 /* controls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = controls.png; sourceTree = "<group>"; };
+		BDE703B011691BDB002F6454 /* Terrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Terrain.h; sourceTree = "<group>"; };
+		BDE703CE11693022002F6454 /* terrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = terrain.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				1D3623EC0D0F72F000981E51 /* CoreGraphics.framework in Frameworks */,
+				2D500B940D5A79C200DBA0E3 /* OpenGLES.framework in Frameworks */,
+				2D500B9A0D5A79CF00DBA0E3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* QBit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2D500B1D0D5A766B00DBA0E3 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1F3B9A820EF2151B00286867 /* QBit_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				42028CFD118FB5B6003A5772 /* aquacloth.png */,
+				42028CEA118FB398003A5772 /* bark.png */,
+				BDB696FC118F99BD00E60A17 /* blackcloth.png */,
+				42028CE4118FB372003A5772 /* brick.png */,
+				BD1D272F118B88010075BEBD /* clouds.png */,
+				BDB697E6118FA6FB00E60A17 /* cobblestone.png */,
+				BDB9F32A116C04E50077C270 /* controls.png */,
+				BDB69727118F9A3D00E60A17 /* darkbluecloth.png */,
+				42136DC0118CBD1F004CD5A0 /* destroy.png */,
+				BDB6972D118F9A3D00E60A17 /* diamond.png */,
+				BDB69775118F9BCF00E60A17 /* dirt.png */,
+				BDB69729118F9A3D00E60A17 /* gold.png */,
+				BDB69717118F9A3D00E60A17 /* goldore.png */,
+				BDB69774118F9BCF00E60A17 /* grass.png */,
+				BDB697E7118FA6FB00E60A17 /* gravel.png */,
+				BDB6972F118F9A3D00E60A17 /* greencloth.png */,
+				BDB6971F118F9A3D00E60A17 /* greycloth.png */,
+				422E631C118C00340086BCCF /* icon.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				BDB69720118F9A3D00E60A17 /* ivy.png */,
+				BDB69776118F9BCF00E60A17 /* leaves.png */,
+				BDB69719118F9A3D00E60A17 /* limecloth.png */,
+				BDB69725118F9A3D00E60A17 /* magentacloth.png */,
+				1FF0216B0EF21FA500761551 /* MainWindow.xib */,
+				BDB6972B118F9A3D00E60A17 /* orangecloth.png */,
+				BDB6971A118F9A3D00E60A17 /* pavestone.png */,
+				BDB69724118F9A3D00E60A17 /* purplecloth.png */,
+				BDB6972C118F9A3D00E60A17 /* redcloth.png */,
+				BDB6972A118F9A3D00E60A17 /* sand.png */,
+				BD7E16CE117E38B30002C9E7 /* SettingsView.xib */,
+				BDB69721118F9A3D00E60A17 /* skycloth.png */,
+				BDB69728118F9A3D00E60A17 /* steel.png */,
+				BDB69778118F9BCF00E60A17 /* stone.png */,
+				BDB6971B118F9A3D00E60A17 /* tealcloth.png */,
+				BDE703CE11693022002F6454 /* terrain.png */,
+				42136DC4118CBD4A004CD5A0 /* TextureOverhead.xib */,
+				421EA648118CF03900CE76CD /* titleQbit.png */,
+				BD7E16CF117E38B30002C9E7 /* TitleScreen.xib */,
+				BDB69723118F9A3D00E60A17 /* violetcloth.png */,
+				BDB6971E118F9A3D00E60A17 /* whitecloth.png */,
+				BDB69777118F9BCF00E60A17 /* wood.png */,
+				BDB6971D118F9A3D00E60A17 /* yellowcloth.png */,
+				BDB696FC118F99BD00E60A17 /* blackcloth.png */,
+				BDE703CE11693022002F6454 /* terrain.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623EB0D0F72F000981E51 /* CoreGraphics.framework */,
+				2D500B990D5A79CF00DBA0E3 /* QuartzCore.framework */,
+				2D500B920D5A79C200DBA0E3 /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD66B092116554E5001AEE84 /* Camera.h */,
+				BD66B093116554E5001AEE84 /* Camera.m */,
+				1FFC28B70EF403B30094EAC8 /* ConstantsAndMacros.h */,
+				BD20D1F9116D4FB500708579 /* GameLogic.h */,
+				BD20D1F8116D4FB500708579 /* GameLogic.m */,
+				42E0649C11851A3E00F2AE5E /* Globals.h */,
+				42E0649D11851A3E00F2AE5E /* Globals.m */,
+				BD93C9F0116BC7D4000541CD /* GLTexture.h */,
+				BD93C9F1116BC7D4000541CD /* GLTexture.m */,
+				1F11B2160F0AA294002B2921 /* GLView.h */,
+				1F11B2150F0AA294002B2921 /* GLView.m */,
+				1FB90FDC0EF46C880086835B /* GLViewController.h */,
+				1FB90FDD0EF46C880086835B /* GLViewController.m */,
+				BD66ADBF1165347E001AEE84 /* MapBlocks.h */,
+				BD66ADC01165347E001AEE84 /* MapBlocks.m */,
+				BD93CA0F116BCC64000541CD /* MapChunks.h */,
+				BD93CA10116BCC64000541CD /* MapChunks.m */,
+				BD93CA04116BC900000541CD /* Mesh.h */,
+				BD93CA05116BC900000541CD /* Mesh.m */,
+				BD9E8EA81177B2CD0046A291 /* MeshPool.h */,
+				BD9E8EA91177B2CD0046A291 /* MeshPool.m */,
+				1F11B2140F0AA272002B2921 /* OpenGLCommon.h */,
+				42E064331184FB1600F2AE5E /* Physics.h */,
+				42E064341184FB1600F2AE5E /* Physics.m */,
+				42E063FC1184F20500F2AE5E /* Player.h */,
+				42E063FD1184F20500F2AE5E /* Player.m */,
+				BD7E16BB117E38810002C9E7 /* SettingsView.h */,
+				BD7E16B8117E38810002C9E7 /* SettingsView.m */,
+				BDE703B011691BDB002F6454 /* Terrain.h */,
+				BD93CA8D116BD7DD000541CD /* Terrain.m */,
+				1F3B9A2C0EF2145700286867 /* TextureAppDelegate.h */,
+				1F3B9A2B0EF2145700286867 /* TextureAppDelegate.m */,
+				42C03B22118BEC9B00E967D1 /* TextureOverhead.h */,
+				42C03B23118BEC9B00E967D1 /* TextureOverhead.m */,
+				BD7E16B9117E38810002C9E7 /* TitleScreen.h */,
+				BD7E16BA117E38810002C9E7 /* TitleScreen.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* QBit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "QBit" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBit;
+			productName = foo;
+			productReference = 1D6058910D05DD3D006BFB54 /* QBit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QBit" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* QBit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF0216C0EF21FA500761551 /* MainWindow.xib in Resources */,
+				BDE703CF11693022002F6454 /* terrain.png in Resources */,
+				BDB9F32B116C04E50077C270 /* controls.png in Resources */,
+				BD7E16D0117E38B30002C9E7 /* SettingsView.xib in Resources */,
+				BD7E16D1117E38B30002C9E7 /* TitleScreen.xib in Resources */,
+				BD1D2730118B88010075BEBD /* clouds.png in Resources */,
+				422E631D118C00340086BCCF /* icon.png in Resources */,
+				42136DC1118CBD1F004CD5A0 /* destroy.png in Resources */,
+				42136DC5118CBD4A004CD5A0 /* TextureOverhead.xib in Resources */,
+				421EA649118CF03900CE76CD /* titleQbit.png in Resources */,
+				BDB69734118F9A3D00E60A17 /* goldore.png in Resources */,
+				BDB69736118F9A3D00E60A17 /* limecloth.png in Resources */,
+				BDB69737118F9A3D00E60A17 /* pavestone.png in Resources */,
+				BDB69738118F9A3D00E60A17 /* tealcloth.png in Resources */,
+				BDB6973A118F9A3D00E60A17 /* yellowcloth.png in Resources */,
+				BDB6973B118F9A3D00E60A17 /* whitecloth.png in Resources */,
+				BDB6973C118F9A3D00E60A17 /* greycloth.png in Resources */,
+				BDB6973D118F9A3D00E60A17 /* ivy.png in Resources */,
+				BDB6973E118F9A3D00E60A17 /* skycloth.png in Resources */,
+				BDB69740118F9A3D00E60A17 /* violetcloth.png in Resources */,
+				BDB69741118F9A3D00E60A17 /* purplecloth.png in Resources */,
+				BDB69742118F9A3D00E60A17 /* magentacloth.png in Resources */,
+				BDB69744118F9A3D00E60A17 /* darkbluecloth.png in Resources */,
+				BDB69745118F9A3D00E60A17 /* steel.png in Resources */,
+				BDB69746118F9A3D00E60A17 /* gold.png in Resources */,
+				BDB69747118F9A3D00E60A17 /* sand.png in Resources */,
+				BDB69748118F9A3D00E60A17 /* orangecloth.png in Resources */,
+				BDB69749118F9A3D00E60A17 /* redcloth.png in Resources */,
+				BDB6974A118F9A3D00E60A17 /* diamond.png in Resources */,
+				BDB6974C118F9A3D00E60A17 /* greencloth.png in Resources */,
+				BDB69779118F9BCF00E60A17 /* grass.png in Resources */,
+				BDB6977A118F9BCF00E60A17 /* dirt.png in Resources */,
+				BDB6977B118F9BCF00E60A17 /* leaves.png in Resources */,
+				BDB6977C118F9BCF00E60A17 /* wood.png in Resources */,
+				BDB6977D118F9BCF00E60A17 /* stone.png in Resources */,
+				BDB697E8118FA6FB00E60A17 /* cobblestone.png in Resources */,
+				BDB697E9118FA6FB00E60A17 /* gravel.png in Resources */,
+				42028CE5118FB372003A5772 /* brick.png in Resources */,
+				42028CEB118FB398003A5772 /* bark.png in Resources */,
+				42028CFE118FB5B6003A5772 /* aquacloth.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1F3B9A2D0EF2145700286867 /* TextureAppDelegate.m in Sources */,
+				1FB90FDE0EF46C880086835B /* GLViewController.m in Sources */,
+				1F11B2170F0AA294002B2921 /* GLView.m in Sources */,
+				BD66ADC11165347E001AEE84 /* MapBlocks.m in Sources */,
+				BD66B094116554E5001AEE84 /* Camera.m in Sources */,
+				BD93C9F2116BC7D4000541CD /* GLTexture.m in Sources */,
+				BD93CA06116BC900000541CD /* Mesh.m in Sources */,
+				BD93CA11116BCC64000541CD /* MapChunks.m in Sources */,
+				BD93CA8E116BD7DD000541CD /* Terrain.m in Sources */,
+				BD20D1FA116D4FB500708579 /* GameLogic.m in Sources */,
+				BD9E8EAA1177B2CD0046A291 /* MeshPool.m in Sources */,
+				BD7E16BC117E38810002C9E7 /* SettingsView.m in Sources */,
+				BD7E16BD117E38810002C9E7 /* TitleScreen.m in Sources */,
+				42E063FE1184F20500F2AE5E /* Player.m in Sources */,
+				42E064351184FB1600F2AE5E /* Physics.m in Sources */,
+				42E0649E11851A3E00F2AE5E /* Globals.m in Sources */,
+				42C03B25118BEC9B00E967D1 /* TextureOverhead.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QBit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = QBit;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QBit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = QBit;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Release;
+		};
+		42FE2DB1118A7ED800384647 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mike Chrzanowski (TWYWZ9X556)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "37174B36-C52F-4A49-B639-433BAF9E63A4";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Distribution;
+		};
+		42FE2DB2118A7ED800384647 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QBit_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PREBINDING = NO;
+				PRODUCT_NAME = QBit;
+				WARNING_CFLAGS = "-Wall";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "QBit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				42FE2DB2118A7ED800384647 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "QBit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				42FE2DB1118A7ED800384647 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Distribution;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
